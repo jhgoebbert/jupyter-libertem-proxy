@@ -18,7 +18,6 @@ def setup_libertem():
     # create command
     cmd = [
         os.path.join(HERE, 'share/launch_libertem.sh'),
-        'start',
         '--no-browser',
         '--port={port}',
     #   '--local-directory={dask_tmp}'.format(dask_tmp=),
