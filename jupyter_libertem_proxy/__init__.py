@@ -21,7 +21,7 @@ def setup_libertem():
         'start',
         '--no-browser',
         '--port={port}',
-        '--local-directory={dask_tmp}',
+    #   '--local-directory={dask_tmp}'.format(dask_tmp=),
     ]
     logger.info('LiberTEM command: ' + ' '.join(cmd))
 
