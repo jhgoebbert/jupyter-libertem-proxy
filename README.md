@@ -8,7 +8,7 @@ Integrates [LiberTEM](https://libertem.github.io/LiberTEM/index.html) in your Ju
 - Jupyter Notebook 6.0+
 - JupyterLab 2.1+
 
-This package executes the `libertem-server` command. This command assumes the `libertem-serve` command is available in the environment's $PATH. You might need to adjust the file [launch_libertem.sh](jupyter-libertem-proxy/share/launch_libertem.sh) to ensure this.
+This package executes the `libertem-server` command. This command assumes the `libertem-server` command is available in the environment's $PATH. You might need to adjust the file [launch_libertem.sh](jupyter_libertem_proxy/share/launch_libertem.sh) to ensure this.
 
 ## Security
 [LiberTEM](https://libertem.github.io/LiberTEM/index.html) is started without the need for authentication. Everyone who has access to the system's local ports has unlimited access to a running LiberTEM platform. Be aware of that!
